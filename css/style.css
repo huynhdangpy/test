@@ -1,0 +1,144 @@
+.background{
+    width: 100%;
+    height: 100vh   ;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center; /* Căn giữa hình ảnh */
+    background-repeat: no-repeat;
+ 
+}
+.menu1 a,h1,p{
+    color: white;
+    font-family: Dancing Script, cursive;
+}
+.menu1 h1{
+    font-size: 32px;
+    font-family: Dancing Script, cursive;
+}
+.icons i{
+    color: white;
+    padding-right: 5px;
+}
+button{
+    border: 1px solid;
+    border-radius: 20px !important;
+}
+.container-fluid {
+    overflow-y: scroll;
+    max-height: 100vh; /* Cố định chiều cao của container */
+}
+.thanhan {
+    background-color: rgb(244, 182, 66) !important;
+}
+.t a:hover{
+    color: rgb(209, 144, 23) ;
+
+}
+.active-link {
+    color: rgb(209, 144, 23) !important;
+}
+a i:hover{
+    color: rgb(209, 144, 23) !important;
+}
+
+.containermenu{
+    padding-top: 90px;
+
+}
+.containermenu h1 {
+    text-align: center;
+color: black;
+font-family: Dancing Script, cursive !important;
+}
+.nav-tabs{
+    border:none;
+}
+.nav-tabs li{
+    border: 1px ;
+    border-radius: 10px;
+    margin-right:17px;
+}
+.nav-tabs li a{
+    color: black;
+}
+.nav-tabs li:hover{
+    background-color: black;
+}
+.nav-tabs li a:hover{
+    color: white;
+}
+.nav-tabs .active {
+    background-color: black !important; 
+    color: white !important;/* Đặt màu nền khi được chọn */
+}
+.card-body{
+    background-color: rgba(34, 40, 49, 1);
+    border-radius: 15px;
+}
+.card-body h4{
+    color: white;
+}
+.card-img-top{
+    display: flex;
+    width: 50%;
+    height: 145px;
+   
+
+}
+.khunganh{
+    display: flex;
+}
+.khunganh{
+    justify-content: center;
+   align-items: center;
+
+}
+.card-body{
+    margin-top: 30px;
+
+}
+.card-body i{
+color: white;
+   
+}
+.card-body a{
+    background-color: rgb(209, 144, 23);
+   width: 40px;
+    height: 40px ;
+    border-radius: 50%;
+    padding: 10px;
+}
+.tab-pane .row{
+    margin-top: 20px;
+
+}
+.cuoitrang{
+    background-color: rgba(34, 40, 49, 1);
+    margin-top: 40px;
+}
+.bgabout{
+    background-color: rgba(34, 40, 49, 1) !important;
+
+}
+.bgabout h2{
+    color: white;
+
+}
+.cuoitrangabout{
+    background-color: rgba(34, 40, 49, 1);
+}
+.formTable{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.formTable  input,select{
+    margin-bottom: 15px !important;
+}
+.khunganh {
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+.khunganh:hover {
+    transform: scale(1.4); /* Phóng to ảnh lên 110% khi di chuột vào */
+}
